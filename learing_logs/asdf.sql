@@ -1,8 +1,3 @@
-SELECT user_id, COUNT(DISTINCT id) AS order_cnt 
-	FROM orders
-	GROUP BY user_id
-	HAVING order_cnt > 7
-	ORDER BY order_cnt DESC;
-	
-	
-SELECT * FROM users;
+#ALTER TABLE students2
+#ADD COLUMN student_email VARCHAR(255) NOT NULL;
+USE kor_it;
